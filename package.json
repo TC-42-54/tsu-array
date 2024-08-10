@@ -1,10 +1,10 @@
 {
-  "name": "@tsu/array",
+  "name": "@tsupp/array",
   "packageManager": "yarn@4.4.0",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TC-42-54/tsu-array.git"
+    "url": "git+https://github.com/TC-42-54/tsu-array.git"
   },
   "scripts": {
     "postinstall": "corepack enable && tsc",
