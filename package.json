@@ -1,18 +1,22 @@
 {
   "name": "@tsupp/array",
   "packageManager": "yarn@4.4.0",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TC-42-54/tsu-array.git"
   },
   "scripts": {
-    "postinstall": "corepack enable && tsc",
     "build": "tsc",
     "test": "vitest"
   },
   "license": "MIT",
   "author": "Thomas Chezieres",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@types/eslint__js": "^8.42.3",
